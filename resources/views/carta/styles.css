@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas iguales */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 18rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card h5 {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 10px;
+}

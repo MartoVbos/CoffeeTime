@@ -1,11 +1,11 @@
 <ul class="navbar-nav">
           <li class="nav-item  active ">
-            <a class="nav-link  active " href="{{route('home')}}./index.html">
+            <a class="nav-link  active " href="{{route('home')}}">
               <i class="ni ni-tv-2 text-primary"></i> Inicio
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./examples/icons.html">
+            <a class="nav-link " href="{{url('/carta')}}">
             <i class="fas fa-coffee"></i> Nuestra carta
             </a>
           </li>
